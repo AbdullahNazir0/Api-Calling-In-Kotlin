@@ -51,6 +51,10 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
-    implementation("com.squareup.okhttp3:okhttp:4.12.0")
-    implementation("com.facebook.android:facebook-login:latest.release")
+    implementation(libs.okhttp)
+    implementation(libs.facebook.login)
+    implementation(libs.play.services.auth)
+    implementation(libs.androidx.credentials)
+    implementation(libs.androidx.credentials.play.services.auth)
+    implementation(libs.googleid)
 }
